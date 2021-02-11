@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;700&family=Lato:wght@400;900&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Hind Siliguri', sans-serif;
+
+}
+.cookie_box_div{
+	position: fixed;
+	transform: translateX(5.5%);
+	bottom: 0px;
+	background: #EDECED;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+.cookie_box_div .container_cookies_div{
+	padding: 15px 0;
+	max-width: 90%;
+	display: flex;
+	align-items: center;
+}
+.cookie_box_div .container_cookies_div .buttons_in_div{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+button{
+	color: white;
+	background: #1C87F6;
+	border: none;
+	padding: 7px;
+	margin: 5px 35px;
+	width: 75%;
+	border-radius: 5px;
+}
+button:hover{
+	background: #CECDCE;
+	color: #A5A3A5;
+	cursor: pointer;
+}
+.cookie_box_div .container_cookies_div .buttons_in_div .alt_button_in_div{
+	background: #CECDCE;
+	color: #A5A3A5;
+}

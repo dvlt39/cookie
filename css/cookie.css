@@ -1,0 +1,180 @@
+	
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500;700&family=Lato:wght@400;900&display=swap');
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Hind Siliguri', sans-serif;
+}
+.cookies_all_top{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	font-size: 15px;
+	transform: translate(-50%,-50%);
+	font-size: 15px;
+
+}
+.cookie_all{
+	background: #EDECED;
+}
+.cookie_top{
+	background: #1C87F6;
+	color: white;
+	padding: 15px 35px;
+}
+button{
+	color: white;
+	background: #1C87F6;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 5px;
+}
+.buton{
+	padding: 15px;
+}
+.cookie_all .buton{
+	text-align: right;
+}
+#reddet{
+	background: #CECDCE;
+	color: #A5A3A5;
+	cursor: pointer;
+}
+
+#kabul{
+	cursor: pointer;
+}
+ul { list-style-type: none; }
+
+.first{
+	font-size: 18px;
+}
+
+
+.cookie_all .zorunlu_cerezler, .cookie_all .performans_cerezler {
+	padding: 15px 35px;
+	background: #FFFFFF;
+	margin: 2px 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+.cookie_all .zorunlu_cerezler .yazi, .cookie_all .performans_cerezler .yazi{
+	float: left;
+}
+.cookie_all .zorunlu_cerezler .zorunlu_yazi{
+	text-align: right;
+	color: #CECDCE;
+}
+.cookie_all .performans_cerezler .sag_js{
+	text-align: right;
+}
+input[type="checkbox"]{
+	width: 40px;
+	height: 20px;
+	-webkit-appearance: none;
+	background: #EBE9ED;
+	border-radius: 20px;
+}
+input:checked[type='checkbox']{
+	background: #37C94C;
+}
+input[type="checkbox"]:before{
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	transform: scale(0.8);
+	border-radius: 20px;
+	background: white;
+	transition: 0.4s;
+	
+}
+input:checked[type="checkbox"]:before{
+	transform: translateX(20px);
+}
+.pad{
+	padding-bottom: 10px;
+}
+
+	
+#first, #second, #third, #fourth{
+	padding: 20px 50px;
+	display: none;
+}
+.yazi button{
+	padding: 0px;
+	margin: 0px;
+	background: none;
+	color: black;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+
+
+
+ul { list-style-type: none; }
+
+.accordion {
+  width: 50%;
+  background: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.accordion {
+  width: 50%;
+  background: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.accordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 15px;
+  font-size: 14px;
+  font-weight: 700;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.submenu {
+	display: none;
+  font-size: 14px;
+  background: #EDECED;
+  padding: 20px 50px;
+}
+.yazi{
+	background: white;
+}
+.yazi p{
+	text-align: right;
+}
+.yazi .sag_js{
+	text-align: right;
+}
+.yazi{
+	padding: 15px 35px;
+	background: #FFFFFF;
+	margin: 2px 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+}
+
+.zorunlu{
+	color: #A9A8A9;
+}
+.ss .sag_js{
+	float: right;
+	margin-right: 50px;
+	margin-top: 16px;
+}
+.ss{
+	justify-content: center;
+}

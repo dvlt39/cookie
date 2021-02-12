@@ -4,7 +4,7 @@ $(function() {
 		this.multiple = multiple || false;
 
 		
-		var links = this.el.find('.yazi');
+		var links = this.el.find('.rewrite');
 		
 		links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
 	}
@@ -25,7 +25,7 @@ $(function() {
 	var accordion = new Accordion($('#accordion'), false);
 });
 
-/*
+
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-36251023-1']);
   _gaq.push(['_setDomainName', 'jqueryscript.net']);
@@ -36,4 +36,3 @@ $(function() {
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
-*/

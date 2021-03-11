@@ -21,7 +21,7 @@
 	color: white;
 	padding: 15px 35px;
 }
-button{
+.cookies_all_top .cookie_all .button_s button{
 	color: white;
 	background: #1C87F6;
 	border: none;
@@ -29,28 +29,29 @@ button{
 	border-radius: 5px;
 	margin: 5px;
 }
-.buttons{
+.cookies_all_top .cookie_all .button_s{
 	padding: 15px;
 }
-.cookie_all .buttons{
+.cookies_all_top .cookie_all .button_s{
 	text-align: right;
+
 }
-#cancel_in{
+.cookies_all_top .cookie_all .button_s #cancel_in{
 	background: #CECDCE;
 	color: #A5A3A5;
 	cursor: pointer;
 }
 
-#accept_in{
+.cookies_all_top .cookie_all .button_s #accept_in{
 	cursor: pointer;
 }
-ul { list-style-type: none; }
+.cookies_all_top .cookie_all ul { list-style-type: none; }
 
-.first{
+.cookies_all_top .cookie_all .first{
 	font-size: 18px;
 }
 
-input[type="checkbox"]{
+.cookies_all_top .cookie_all input[type="checkbox"]{
 	width: 40px;
 	height: 20px;
 	-webkit-appearance: none;
@@ -58,10 +59,10 @@ input[type="checkbox"]{
 	border-radius: 20px;
 	outline: none;
 }
-input:checked[type='checkbox']{
+.cookies_all_top .cookie_all input:checked[type='checkbox']{
 	background: #37C94C;
 }
-input[type="checkbox"]:before{
+.cookies_all_top .cookie_all input[type="checkbox"]:before{
 	content: '';
 	position: absolute;
 	width: 20px;
@@ -72,61 +73,62 @@ input[type="checkbox"]:before{
 	transition: 0.4s;
 	
 }
-input:checked[type="checkbox"]:before{
+.cookies_all_top .cookie_all input:checked[type="checkbox"]:before{
 	transform: translateX(20px);
 }
-.pad{
+.cookies_all_top .cookie_all .pad{
 	padding-bottom: 10px;
 }
 
 
-.rewrite button{
+.cookies_all_top .cookie_all #accordion li .rewrite button{
 	padding: 0px;
 	margin: 0px;
+	border: none;
 	background: none;
 	color: black;
 	font-size: 15px;
 	cursor: pointer;
 }
 
-ul { list-style-type: none; }
+.cookies_all_top .cookie_all ul { list-style-type: none; }
 
-.accordion {
-  width: 50%;
-  background: #FFF;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
+.cookies_all_top .cookie_all .accordion {
+	width: 50%;
+	background: #FFF;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
 }
 
-.accordion .link {
-  cursor: pointer;
-  display: block;
-  padding: 15px;
-  font-size: 14px;
-  font-weight: 700;
-  position: relative;
-  -webkit-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+.cookies_all_top .cookie_all .accordion .link {
+	cursor: pointer;
+	display: block;
+	padding: 15px;
+	font-size: 14px;
+	font-weight: 700;
+	position: relative;
+	-webkit-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
 }
 
-.submenu {
+.cookies_all_top .cookie_all #accordion .submenu {
 	display: none;
-  font-size: 14px;
-  background: #EDECED;
-  padding: 20px 50px;
+	font-size: 14px;
+	background: #EDECED;
+	padding: 20px 50px;
 }
-.rewrite{
+.cookies_all_top .cookie_all #accordion .rewrite{
 	background: white;
 }
-.rewrite p{
+.cookies_all_top .cookie_all #accordion .rewrite p{
 	text-align: right;
 }
-.rewrite .right_js{
+.cookies_all_top .cookie_all #accordion .rewrite .right_js{
 	text-align: right;
 }
-.rewrite{
+.cookies_all_top .cookie_all #accordion .rewrite{
 	padding: 15px 35px;
 	background: #FFFFFF;
 	margin: 2px 20px;
@@ -134,10 +136,10 @@ ul { list-style-type: none; }
 	border-radius: 5px;
 }
 
-.warning_style{
+.cookies_all_top .cookie_all #accordion .rewrite .warning_style{
 	color: #A9A8A9;
 }
-.ss .right_js{
+.cookies_all_top .cookie_all #accordion li .ss .right_js{
 	float: right;
 	margin-right: 50px;
 	margin-top: 16px;

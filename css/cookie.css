@@ -4,14 +4,24 @@
 	margin: 0px;
 	font-family: 'Hind Siliguri', sans-serif;
 }
-.cookies_all_top{
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	font-size: 15px;
-	transform: translate(-50%,-50%);
-	font-size: 15px;
+@media (max-width: 500px){
+	.cookies_all_top{
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
 
+}
+@media (min-width: 500px){
+	.cookies_all_top{
+		position: absolute;
+		top :50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		font-size: 15px;
+		font-size: 15px;
+
+	}
 }
 .cookies_all_top .cookie_all{
 	background: #EDECED;
